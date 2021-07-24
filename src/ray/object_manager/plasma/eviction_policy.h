@@ -177,7 +177,11 @@ class EvictionPolicy {
 
   const ObjectStore &object_store_;
 
+<<<<<<< HEAD
   const IAllocator &allocator_;
+=======
+  IAllocator &allocator_;
+>>>>>>> 5d09b62ae (add object_store)
 };
 
 }  // namespace plasma
